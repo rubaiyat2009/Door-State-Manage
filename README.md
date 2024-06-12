@@ -16,8 +16,8 @@ This project implements a simple state machine for controlling a door that can b
 ### Example ```python from door_state_manage import DoorController door = DoorController() print(f'Initial Status: {door.get_status()}') 
 
 # Outputs: 
-   ###Initial Status: Closed
-   ###Status after "open" event: Open
-   ###Status after "close" event: Closed
+   ### Initial Status: Closed
+   ### Status after "open" event: Open
+   ### Status after "close" event: Closed
 
 ## Contributing Please feel free to submit issues and pull requests for any improvements or bug fixes.

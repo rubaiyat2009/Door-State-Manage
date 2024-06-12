@@ -12,7 +12,7 @@ This project implements a simple state machine for controlling a door that can b
 2. (Optional) Create and activate a virtual environment: ```sh python -m venv venv source venv/bin/activate # On Windows use `venv\Scripts\activate` ```
 4. Install any dependencies (if applicable): ```sh pip install -r requirements.txt ``` 
 ## Usage You can use the DoorStateMachine class to simulate door operations. 
-### Example ```python from door_state_manage import DoorController door = DoorController() print(f'Initial Status: {door.get_status()}') 
+### Example ```python from door_state_manage import DoorController door = DoorController() print(f'Initial Status: {door.get_status()}') ```
 
 # Outputs: 
    ### Initial Status: Closed
